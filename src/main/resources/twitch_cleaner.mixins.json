@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.b1n_ry.twitch_cleaner.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "DisplayBlockMixin",
+    "DisplayTileMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
